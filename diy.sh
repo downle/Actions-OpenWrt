@@ -12,5 +12,6 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adgu
 cd lede/package/lean/ 
 git clone https://github.com/jerrykuku/lua-maxminddb.git
 git clone https://github.com/jerrykuku/luci-app-vssr.git
+cd lede
 ./scripts/feeds update -a
 ./scripts/feeds install -a
