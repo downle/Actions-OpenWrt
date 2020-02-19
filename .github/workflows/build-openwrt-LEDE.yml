@@ -15,8 +15,8 @@ on:
     branches:
       - master
     paths:
-    # - '.config'
-      - '.configvssr'
+      - '.config'
+     # - '.configvssr'
   schedule:
      # - cron: 0 8 * * 5
       - cron: 0 */12 * * *
