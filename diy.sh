@@ -16,4 +16,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adgu
 #cd ..
 ./scripts/feeds update -a
 ./scripts/feeds install -a
-make -j8 download v=s
+#make -j8 download v=s
